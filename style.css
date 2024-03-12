@@ -1,0 +1,74 @@
+.body {}
+
+.title {
+    text-align: center;
+}
+
+.emploe {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.emploe-list {
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    border-radius: 5px;
+}
+
+
+.emploe__input {
+    width: 300px;
+    justify-content: space-between;
+    display: flex;
+    padding: 6px;
+}
+
+.emloe-childen {
+    display: flex;
+    justify-self: start;
+    width: 130px;
+}
+
+.emploe__select {
+    width: 300px;
+
+}
+
+.emploe__select-forms {
+    display: block;
+    padding: 6px;
+    gap: 1px;
+    display: flex;
+    /* flex-direction: column; */
+    width: 300px;
+    align-items: flex-start;
+    justify-content: space-between
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.emloe-button {
+    background: rgb(145, 145, 212);
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+}

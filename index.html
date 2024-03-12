@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="body">
+
+    <h1 class="title"> Информация о работнике </h1>
+
+    <div class="emploe">
+        <div class="emploe-list">
+            <div class="emploe__input emploe-name">
+                <label for="name">Имя</label>
+                <input type="text" name="name" placeholder="Имя" id="name">
+            </div>
+
+            <div class="emploe__input emploe-secondname">
+                <label for="secondName">Фамилия</label>
+                <input type="text" name="secondName" placeholder="Фамилия" id="secondname">
+            </div>
+            <div class="emploe__input emloe-age">
+                <label for="Age">Возраст</label>
+                <input type="text" name="Age" placeholder="Возраст" id="age">
+            </div>
+
+            <div class="emploe__input emloe-organization">
+                <label for="organization"> Организация</label>
+                <input type="text" name="organization" id="organization">
+            </div>
+
+            <select class="emploe__select" id="jobTitle" name="Должность">
+                <option value="">Выберите должность</option>
+                <option value="Плотник">Плотник</option>
+                <option value="Водитeль">Водитeль</option>
+            </select>
+
+            <div class="emploe__select-forms emloe-skillLevel">
+                <label for="skillLevel"> Опыт работы</label>
+                <input type="text" name="skillLevel" placeholder="Опыт работы" id="skillLevel">
+            </div>
+
+            <div class="emploe__select-forms emloe-hiring">
+                <label for="hiring"> Дата принятия</label>
+                <input type="text" name="hiring" placeholder="Дата принятия" id="hiring">
+            </div>
+
+            <div class="emploe__select-forms emloe-driverLicense">
+                <label for="driverLicense"> Уровни вождения</label>
+                <input type="text" name="driverLicense" placeholder="Уровни вождения" id="driverLicense">
+            </div>
+
+            <div class="emploe__select-forms emloe-yearsOfExperience">
+                <label for="yearsOfExperience"> Опыт вождения</label>
+                <input type="text" name="yearsOfExperience" placeholder="Опыт вождения" id="yearsOfExperience">
+            </div>
+            <button class="emloe-button">Сохранить</button>
+
+
+        </div>
+
+
+    </div>
+
+    <div class="emploe__table">
+        <table id="employeeTable">
+            <thead>
+                <tr>
+                    <th>Имя</th>
+                    <th>Фамилия</th>
+                    <th>Возраст</th>
+                    <th>Организация</th>
+                    <th>Должность</th>
+                    <th>Опыт</th>
+                    <th>Дата принития</th>
+                    <th>Уровни вождения</th>
+                    <th>Опыт вождения</th>
+                </tr>
+            </thead>
+            <tbody id="employeeList">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
